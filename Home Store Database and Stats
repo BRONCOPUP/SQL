@@ -1,21 +1,20 @@
-CREATE TABLE home_store (product_number INTEGER PRIMARY KEY, name TEXT, price INTEGER, quantity INTEGER, sales INTEGER);
+CREATE TABLE Home_Store (Product_number INTEGER PRIMARY KEY, Name TEXT, Price INTEGER, Quantity INTEGER, Sales INTEGER ); 
 
-INSERT into Home_Store VALUES 
-(1, "Couch", 14.99, 6, 2);
-(2, "Bed", 200, 8, 3);
-(3, "Table", 56, 9, 7);
-(4, "Pillow", 8.99, 20, 4);
-(5, "Chair", 85.87, 16, 12);
-(6, "TV", 99.99,23,6);
-(7, "TV_Stand", 250, 5, 3);
-(8, "Rug", 500, 26, 4);
-(9, "Loveseat", 289.99, 45, 23);
-(10, "Blaket", 12.99, 60, 15);
-(11, "Mirror", 65.99, 80, 67);
-(12, "Curtain", 17.99,23,14);
-(13, "Vase", 6.99, 45,2);
-(14, "Painting", 16.99, 3,2);
-(15, "Microwave", 67.99,26,26);
+INSERT into Home_Store VALUES (1, "Couch", 14.99, 6, 2);
+INSERT into Home_Store VALUES (2, "Bed", 200, 8, 3);
+INSERT into Home_Store VALUES (3, "Table", 56, 9, 7);
+INSERT into Home_Store VALUES (4, "Pillow", 8.99, 20, 4);
+INSERT into Home_Store VALUES (5, "Chair", 85.87, 16, 12);
+INSERT into Home_Store VALUES (6, "TV", 99.99,23,6);
+INSERT into Home_Store VALUES (7, "TV_Stand", 250, 5, 3);
+INSERT into Home_Store VALUES (8, "Rug", 500, 26, 4);
+INSERT into Home_Store VALUES (9, "Loveseat", 289.99, 45, 23);
+INSERT into Home_Store VALUES (10, "Blaket", 12.99, 60, 15);
+INSERT into Home_Store VALUES (11, "Mirror", 65.99, 80, 67);
+INSERT into Home_Store VALUES (12, "Curtain", 17.99,23,14);
+INSERT into Home_Store VALUES (13, "Vase", 6.99, 45,2);
+INSERT into Home_Store VALUES (14, "Painting", 16.99, 3,2);
+INSERT into Home_Store VALUES (15, "Microwave", 67.99,26,26);
 
 SELECT * FROM Home_Store;
 
